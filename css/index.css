@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+
+:root {
+    font-family: 'Hind Madurai', sans-serif;
+}
+body {
+    max-width: 1050px;
+    background-color:#D2B48C;
+    background-position: center;
+    margin: auto;
+}
+
+header nav {
+    display: flex;
+    margin: 0 10px;
+}
+header nav p {
+    margin-right: 10px;
+}
+    header nav ul {
+        display: flex;
+        flex: 1;
+        padding: 0;
+}
+header nav ul li {
+    list-style-type: none;
+    margin-right: 1%;
+}
+header nav ul li:last-child {
+    margin-left: auto;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+div.banner {
+background-image: url(../img/child.jpg);
+background-position: center;
+background-size: right;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: auto;
+color: white;
+}
+
+
+
+.relative {
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+.absolute {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+}
+.sculpture img {
+  float: left;
+  margin: 0 0 1em 1em;
+}
+.animation img {
+  float: left;
+  margin: 0 0 1em 1em;
+}
+.ethnic_drinks img {
+  float: left;
+  margin: 0 0 1em 1em;
+}
+
+ 

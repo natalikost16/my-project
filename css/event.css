@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Madurai');
+
+:root {
+    font-family: 'Hind Madurai', sans-serif;
+}
+body {
+    max-width: 1100px;
+    margin: auto;
+    background-color:#D2B48C;
+    background-position: center;
+}
+header {
+    position: fixed;
+}
+.message-form label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.message-form label input{
+    width: 250px;
+    height: 35px;
+}
+.message input {
+    height: 200px;
+}
+header {
+    background-color: silver;
+}
